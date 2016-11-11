@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget xmlns     = "http://www.w3.org/ns/widgets"
-        xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.ionicframework.phonegapbuild157888"
-        version   = "1.0.0">
-  <name>PhoneGapBuild1</name>
+<widget id="com.ionicframework.phonegapbuild157888" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>PhoneGapBuild</name>
   <description>
         An Ionic Framework and Cordova project.
     </description>
@@ -21,7 +18,7 @@
   <preference name="ShowSplashScreenSpinner" value="false"/>
   <preference name="android-minSdkVersion" value="16"/>
   <preference name="BackupWebStorage" value="none"/>
-  <preference name="SplashScreen" value="screen"/>
+  <preference name="SplashScreen" value="splash"/>
   <feature name="StatusBar">
     <param name="ios-package" onload="true" value="CDVStatusBar"/>
   </feature>
@@ -52,5 +49,4 @@
     <splash src="res/android/splash/drawable-port-xxxhdpi-screen.png" qualifier="port-xxxhdpi"/>
   </platform>
   <icon src="res/android/icon/drawable-xhdpi-icon.png"/>
-  <splash src="res/android/icon/drawable-land-xhdpi-screen.png" />
 </widget>
