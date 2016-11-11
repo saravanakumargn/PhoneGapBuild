@@ -3,7 +3,7 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.ionicframework.phonegapbuild157888"
         version   = "1.0.0">
-  <name>PhoneGapBuild</name>
+  <name>PhoneGapBuild1</name>
   <description>
         An Ionic Framework and Cordova project.
     </description>
